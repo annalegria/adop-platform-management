@@ -1,1 +1,1 @@
-https://github.com/paoloxide/adop-cartridge-hcm.git
+https://github.com/johnsmith01/adop-cartridge-taleo.git

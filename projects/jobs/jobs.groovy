@@ -9,53 +9,6 @@ def workspaceFolderName = "${WORKSPACE_NAME}"
 def projectFolderName = workspaceFolderName + "/${PROJECT_NAME}"
 def projectFolder = folder(projectFolderName)
 
-/* def enableFolderName = projectFolderName + "/Features_to_Enable";
-def enableFolder = folder(enableFolderName) { displayName('Features to Enable') }
-
-def dpf_FolderName = projectFolderName + "/HCM_Project_with_Default_Features"
-def dpf_Folder = folder(dpf_FolderName) { displayName('HCM Project with Default Features') }
-
-def ha_FolderName = projectFolderName + "/HCM_Automation"
-def ha_Folder = folder(ha_FolderName) { displayName('HCM Automation') }
-
-def aftp_FolderName = projectFolderName + "/Apply_Feature_to_Project"
-def aftp_Folder = folder(aftp_FolderName) { displayName('Apply Feature to Project') }
-*/
-// HCM Features Manager
-
-def hfm_FolderName = projectFolderName + "/HCM_Features_Manager"
-def hfm_Folder = folder(hfm_FolderName) { displayName('HCM Features Manager') }
-
-def md_FolderName = hfm_FolderName + "/Manage_Department"
-def md_Folder = folder(md_FolderName) { displayName('Manage Department') }
-
-def cd_FolderName = hfm_FolderName + "/Create_Department"
-def cd_Folder = folder(cd_FolderName) { displayName('Create Department') }
-
-def pm_FolderName = hfm_FolderName + "/Person_Management"
-def pm_Folder = folder(pm_FolderName) { displayName('Person Management') }
-
-// HCM Features Enablement
-
-def fe_FolderName = projectFolderName + "/HCM_Feature_Enablement"
-def fe_Folder = folder(fe_FolderName) { displayName('HCM Feature Enablement') }
-
-def wd_FolderName = fe_FolderName + "/Enable_Workforce_Development"
-def wd_Folder = folder(wd_FolderName) { displayName('Enable Workforce Development') }
-
-def mgs_FolderName = wd_FolderName + "/Manage_Goal_Setting"
-def mgs_Folder = folder(mgs_FolderName) { displayName('Manage Goal Setting') }
-
-// HCM Feature Templates
-
-def ft_FolderName = projectFolderName + "/HCM_Feature_Templates"
-def ft_Folder = folder(ft_FolderName) { displayName('HCM Feature Templates') }
-
-// HCM Project Creation
-
-def pc_FolderName = projectFolderName + "/HCM_Project_Creation"
-def pc_Folder = folder(pc_FolderName) { displayName('HCM Project Creation') }
-
 // ADOP Cartridge Management Folder
 
 def cartridgeManagementFolderName= projectFolderName + "/Cartridge_Management"
