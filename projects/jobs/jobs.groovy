@@ -26,8 +26,8 @@ def talentsubFolder = folder(talentsubFolderName) { displayName('Oracle HCM Tale
 
 //Per Set Talent
 
-def set1FolderName = talentsubFolderName + "/Set_1"
-def set1Folder = folder(set1FolderName) { displayName('Set 1')}
+def talentset1FolderName = talentsubFolderName + "/Set_1"
+def talentset1Folder = folder(talentset1FolderName) { displayName('Set 1 and 2')}
 
 // SUBFOLDER of TALEO
 
