@@ -11,16 +11,30 @@ def projectFolder = folder(projectFolderName)
 
 // MAINFOLDER After Project Folder
 
-def TalentMain = projectFolderName + "/HCM-TALENT"
-def CoreMain = projectFolderName + "/HCM-CORE"
-def TaleoMain = projectFolderName + "/TALEO"
+def TalentMainFolderName = projectFolderName + "/HCM-TALENT"
+def TalentMainFolder = folder(TalentMainFolderName) { displayName('Oracle HCM Talent')}
+def CoreMainFolderName = projectFolderName + "/HCM-CORE"
+def CoreMainFolder = folder(CoreMainFolderName) { displayName('Oracle HCM Core')}
+def TaleoMainFolderName = projectFolderName + "/TALEO"
+def TaleoMainFolder = folder(TalentMainFolderName) { displayName('Oracle Taleo')}
+
+
+// SUBFOLDER of Talent
+
+def talentsubFolderName = TalentMainFolderName + "/HCM_Talent_Per_Set"
+def talentsubFolder = folder(talentsubFolderName) { displayName('Oracle HCM Talent(Per Set)')}
+
+//Per Set Talent
+
+def set1FolderName = talentsubFolderName + "/Set_1"
+def set1Folder = folder(set1FolderName) { displayName('Set 1')}
 
 // SUBFOLDER of TALEO
 
-def ucFoldername = TalentMain + "/Taleo_Per_Task"
+def ucFoldername = TaleoMainFolderName + "/Taleo_Per_Task"
 def ucFolder = folder(ucFoldername) { displayName('Taleo Configuration(Per Task)')}
 
-def ucPerSetFoldername = TaleoMain + "/Taleo_Per_Set"
+def ucPerSetFoldername = TaleoMainFolderName + "/Taleo_Per_Set"
 def ucPerSetFolder = folder(ucPerSetFoldername) { displayName('Taleo Configuration(Per Set)')}
 
 //Per task
