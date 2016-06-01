@@ -1,1 +1,2 @@
-https://github.com/johnsmith01/adop-cartridge-taleo.git
+https://github.com/johnsmith01/adop-cartridge-oracle.git
+
