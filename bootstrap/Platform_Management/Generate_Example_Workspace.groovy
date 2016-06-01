@@ -7,15 +7,15 @@ def generateExampleWorkspaceJob = workflowJob(platformManagementFolderName + "/G
  
 generateExampleWorkspaceJob.with{
     parameters{
-        stringParam("projectName","Taleo","")
+        stringParam("projectName","Oracle","")
         stringParam("projectAdmin","Admin","")
         stringParam("projectDeveloper","Developer","")
         stringParam("projectViewer","Viewer","")
-        stringParam("workspaceName","Oracle","")
+        stringParam("workspaceName","DevOps","")
         stringParam("workspaceAdmin","Admin","")
         stringParam("workspaceDeveloper","Developer","")
         stringParam("workspaceViewer","Viewer","")
-        stringParam("cartridgeURL","ssh://jenkins@gerrit:29418/cartridges/adop-cartridge-taleo.git","")
+        stringParam("cartridgeURL","ssh://jenkins@gerrit:29418/cartridges/adop-cartridge-oracle.git","")
     }
     properties {
         rebuild {

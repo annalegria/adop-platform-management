@@ -9,13 +9,19 @@ def workspaceFolderName = "${WORKSPACE_NAME}"
 def projectFolderName = workspaceFolderName + "/${PROJECT_NAME}"
 def projectFolder = folder(projectFolderName)
 
-//Main Folder
+// MAINFOLDER After Project Folder
 
-def ucFoldername = projectFolderName + "/Taleo_Per_Task"
-def ucFolder = folder(ucFoldername) { displayName('Talent and Compensation Configurations(Per Task)')}
+def TalentMain = projectFolderName + "/HCM-TALENT"
+def CoreMain = projectFolderName + "/HCM-CORE"
+def TaleoMain = projectFolderName + "/TALEO"
 
-def ucPerSetFoldername = projectFolderName + "/Taleo_Per_Set"
-def ucPerSetFolder = folder(ucPerSetFoldername) { displayName('Talent and Compensation Configurations(Per Set)')}
+// SUBFOLDER of TALEO
+
+def ucFoldername = TalentMain + "/Taleo_Per_Task"
+def ucFolder = folder(ucFoldername) { displayName('Taleo Configuration(Per Task)')}
+
+def ucPerSetFoldername = TaleoMain + "/Taleo_Per_Set"
+def ucPerSetFolder = folder(ucPerSetFoldername) { displayName('Taleo Configuration(Per Set)')}
 
 //Per task
 
@@ -38,7 +44,7 @@ def uc5_Folder = folder(uc5_FolderName) { displayName('Manage Configuration Prof
 def uc6_FolderName = ucFoldername + "/Manage_User_Types"
 def uc6_Folder = folder(uc6_FolderName) { displayName('Manage User Types')}
 
-/*
+
 // Set 2 per task
 def uc7_FolderName = ucFoldername + "/Create_User_Accounts"
 def uc7_Folder = folder(uc7_FolderName) { displayName('Create User Accounts')}
@@ -55,6 +61,7 @@ def uc10_Folder = folder(uc10_FolderName) { displayName('Manage Standard Fields'
 def uc11_FolderName = ucFoldername + "/Create_User_Defined_Fields"
 def uc11_Folder = folder(uc11_FolderName) { displayName('Create User Defined Fields')}
 
+/*
 // Set 3 per task
 def uc12_FolderName = ucFoldername + "/Manage_Fields_Selection_List"
 def uc12_Folder = folder(uc12_FolderName) { displayName('Manage Fields Selection List')}
@@ -282,10 +289,10 @@ def uc80_Folder = folder(uc80_FolderName) { displayName('Manage Succession Manag
 def Set1_FolderName = ucPerSetFoldername + "/Set_1"
 def Set1_Folder = folder(Set1_FolderName) { displayName('Set 1')}
 
-/*
 def Set2_FolderName = ucPerSetFoldername + "/Set_2"
 def Set2_Folder = folder(Set2_FolderName) { displayName('Set 2')}
 
+/*
 def Set3_FolderName = ucPerSetFoldername + "/Set_3"
 def Set3_Folder = folder(Set3_FolderName) { displayName('Set 3')}
 
