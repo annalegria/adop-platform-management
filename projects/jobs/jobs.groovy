@@ -40,7 +40,7 @@ def ucFolder = folder(ucFoldername) { displayName('Taleo Configuration(Per Task)
 def ucPerSetFoldername = TaleoMainFolderName + "/Taleo_Per_Set"
 def ucPerSetFolder = folder(ucPerSetFoldername) { displayName('Taleo Configuration(Per Set)')}
 
-//Per task
+// TALEO Per task
 
 // Set 1 per task
 def uc1_FolderName = ucFoldername + "/Change_Operation_Mode_to_Maintenance"
@@ -301,7 +301,7 @@ def uc80_FolderName = ucFoldername + "/Manage_Succession_Management_Lookups"
 def uc80_Folder = folder(uc80_FolderName) { displayName('Manage Succession Management Lookups')}
 */
 
-//Per Set
+// TALEO Per Set
 
 def Set1_FolderName = ucPerSetFoldername + "/Set_1"
 def Set1_Folder = folder(Set1_FolderName) { displayName('Set 1')}
