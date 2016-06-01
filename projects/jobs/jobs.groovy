@@ -12,35 +12,35 @@ def projectFolder = folder(projectFolderName)
 // MAINFOLDER After Project Folder
 
 def TalentMainFolderName = projectFolderName + "/HCM-TALENT"
-def TalentMainFolder = folder(TalentMainFolderName) { displayName('Oracle HCM Talent')}
+def TalentMainFolder = folder(TalentMainFolderName) { displayName('Oracle HCM Talent') }
 
 def CoreMainFolderName = projectFolderName + "/HCM-CORE"
-def CoreMainFolder = folder(CoreMainFolderName) { displayName('Oracle HCM Core')}
+def CoreMainFolder = folder(CoreMainFolderName) { displayName('Oracle HCM Core') }
 
 def TaleoMainFolderName = projectFolderName + "/TALEO"
-def TaleoMainFolder = folder(TalentMainFolderName) { displayName('Oracle Taleo')}
+def TaleoMainFolder = folder(TaleoMainFolderName) { displayName('Oracle Taleo') }
 
 
 // SUBFOLDER of Talent
 
 def talentsubFolderName = TalentMainFolderName + "/HCM_Talent_Per_Set"
-def talentsubFolder = folder(talentsubFolderName) { displayName('Oracle HCM Talent(Per Set)')}
+def talentsubFolder = folder(talentsubFolderName) { displayName('Oracle HCM Talent(Per Set)') }
 
-//Per Set Talent
+// Per Set Talent
 
 def talentset1FolderName = talentsubFolderName + "/Set_1"
-def talentset1Folder = folder(talentset1FolderName) { displayName('Set 1 and 2')}
+def talentset1Folder = folder(talentset1FolderName) { displayName('Set 1 and 2') }
 
 def talentset3FolderName = talentset1FolderName + "/Set_3"
-def talentset3Folder = folder(talentset3FolderName) { displayName('Set 3 and 4')}
+def talentset3Folder = folder(talentset3FolderName) { displayName('Set 3 and 4') }
 
 // SUBFOLDER of TALEO
 
 def ucFolderName = TaleoMainFolderName + "/Taleo_Per_Task"
-def ucFolder = folder(ucFolderName) { displayName('Taleo Configuration(Per Task)')}
+def ucFolder = folder(ucFolderName) { displayName('Taleo Configuration(Per Task)') }
 
 def ucPerSetFolderName = TaleoMainFolderName + "/Taleo_Per_Set"
-def ucPerSetFolder = folder(ucPerSetFolderName) { displayName('Taleo Configuration(Per Set)')}
+def ucPerSetFolder = folder(ucPerSetFolderName) { displayName('Taleo Configuration(Per Set)') }
 
 // TALEO Per task
 
