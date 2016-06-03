@@ -34,6 +34,12 @@ def talentset1Folder = folder(talentset1FolderName) { displayName('Set 1 and 2')
 def talentset3FolderName = talentsubFolderName + "/Set_3"
 def talentset3Folder = folder(talentset3FolderName) { displayName('Set 3 and 4') }
 
+def talentset5FolderName = talentsubFolderName + "/Set_5"
+def talentset5Folder = folder(talentset5FolderName) { displayName('Set 5 and 6')}
+
+def talentset7FolderName = talentsubFolderName + "/Set_7"
+def talentset7Folder = folder(talentset7FolderName) { displayName('Set 7')}
+
 // SUBFOLDER of TALEO
 
 def ucFolderName = TaleoMainFolderName + "/Taleo_Per_Task"
