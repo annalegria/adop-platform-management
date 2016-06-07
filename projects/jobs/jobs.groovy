@@ -86,6 +86,38 @@ def uc10_Folder = folder(uc10_FolderName) { displayName('Manage Standard Fields'
 def uc11_FolderName = ucFolderName + "/Create_User_Defined_Fields"
 def uc11_Folder = folder(uc11_FolderName) { displayName('Create User Defined Fields')}
 
+// Set 3 per task
+def uc12_FolderName = ucFolderName + "/Manage_Fields_Selection_List"
+def uc12_Folder = folder(uc12_FolderName) { displayName('Manage Fields Selection List')}
+
+def uc13_FolderName = ucFolderName + "/Create_Offer_Field_Layout"
+def uc13_Folder = folder(uc13_FolderName) { displayName('Create Offer Field layout')}
+
+def uc14_FolderName = ucFolderName + "/Create_User_Defined_Forms"
+def uc14_Folder = folder(uc14_FolderName) { displayName('Create User Defined Forms')}
+
+def uc15_FolderName = ucFolderName + "/Create_User_Defined_Files"
+def uc15_Folder = folder(uc15_FolderName) { displayName('Create User Defined Files')}
+
+def uc16_FolderName = ucFolderName + "/Manage_Candidate_File_Setup"
+def uc16_Folder = folder(uc16_FolderName) { displayName('Manage Candidate File Setup')}
+
+// Set 4 per task
+def uc17_FolderName = ucFolderName + "/Manage_Requisition_File_Setup"
+def uc17_Folder = folder(uc17_FolderName) { displayName('Manage Requisition File Setup')}
+
+def uc18_FolderName = ucFolderName + "/Create_Matching_Candidate_Filter"
+def uc18_Folder = folder(uc18_FolderName) { displayName('Create Matching Candidate Filter')}
+
+def uc19_FolderName = ucFolderName + "/Create_Requisition_Matching_Criteria"
+def uc19_Folder = folder(uc19_FolderName) { displayName('Create Requisition Matching Criteria')}
+
+def uc20_FolderName = ucFolderName + "/Create_Candidate_Matching_Criteria"
+def uc20_Folder = folder(uc20_FolderName) { displayName('Create Candidate Matching Criteria')}
+
+def uc21_FolderName = ucFolderName + "/Create_Paragraphs"
+def uc21_Folder = folder(uc21_FolderName) { displayName('Create Paragraphs')}
+
 // TALEO Per Set
 
 def Set1_FolderName = ucPerSetFolderName + "/Set_1"
@@ -93,6 +125,12 @@ def Set1_Folder = folder(Set1_FolderName) { displayName('Set 1')}
 
 def Set2_FolderName = ucPerSetFolderName + "/Set_2"
 def Set2_Folder = folder(Set2_FolderName) { displayName('Set 2')}
+
+def Set3_FolderName = ucPerSetFolderName + "/Set_3"
+def Set3_Folder = folder(Set3_FolderName) { displayName('Set 3')}
+
+def Set4_FolderName = ucPerSetFolderName + "/Set_4"
+def Set4_Folder = folder(Set4_FolderName) { displayName('Set 4')}
 
 
 // ADOP Cartridge Management Folder
