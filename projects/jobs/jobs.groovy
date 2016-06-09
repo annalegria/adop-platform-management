@@ -118,6 +118,22 @@ def uc20_Folder = folder(uc20_FolderName) { displayName('Create Candidate Matchi
 def uc21_FolderName = ucFolderName + "/Create_Paragraphs"
 def uc21_Folder = folder(uc21_FolderName) { displayName('Create Paragraphs')}
 
+// Set 5 per task
+def uc22_FolderName = ucFolderName + "/Create_Message_Templates"
+def uc22_Folder = folder(uc22_FolderName) { displayName('Create Message Templates')}
+
+def uc23_FolderName = ucFolderName + "/Manage_Requisition_Types"
+def uc23_Folder = folder(uc23_FolderName) { displayName('Manage Requisition Types')}
+
+def uc24_FolderName = ucFolderName + "/Manage_Center_Stage"
+def uc24_Folder = folder(uc24_FolderName) { displayName('Manage Center Stage')}
+
+def uc25_FolderName = ucFolderName + "/Manage_Candidate_Duplicate_Check"
+def uc25_Folder = folder(uc25_FolderName) { displayName('Manage Candidate Duplicate Check')}
+
+def uc26_FolderName = ucFolderName + "/Manage_Candidate_Search_Page"
+def uc26_Folder = folder(uc26_FolderName) { displayName('Manage Candidate Search Page')}
+
 // TALEO Per Set
 
 def Set1_FolderName = ucPerSetFolderName + "/Set_1"
@@ -131,6 +147,9 @@ def Set3_Folder = folder(Set3_FolderName) { displayName('Set 3')}
 
 def Set4_FolderName = ucPerSetFolderName + "/Set_4"
 def Set4_Folder = folder(Set4_FolderName) { displayName('Set 4')}
+
+def Set5_FolderName = ucPerSetFolderName + "/Set_5"
+def Set5_Folder = folder(Set5_FolderName) { displayName('Set 5')}
 
 
 // ADOP Cartridge Management Folder
