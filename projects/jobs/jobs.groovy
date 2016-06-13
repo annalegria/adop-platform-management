@@ -91,7 +91,7 @@ def uc12_FolderName = ucFolderName + "/Manage_Fields_Selection_List"
 def uc12_Folder = folder(uc12_FolderName) { displayName('Manage Fields Selection List')}
 
 def uc13_FolderName = ucFolderName + "/Create_Offer_Field_Layout"
-def uc13_Folder = folder(uc13_FolderName) { displayName('Create Offer Field layout')}
+def uc13_Folder = folder(uc13_FolderName) { displayName('Create Offer Field Layout')}
 
 def uc14_FolderName = ucFolderName + "/Create_User_Defined_Forms"
 def uc14_Folder = folder(uc14_FolderName) { displayName('Create User Defined Forms')}
