@@ -122,8 +122,8 @@ def uc21_Folder = folder(uc21_FolderName) { displayName('Create Paragraphs')}
 def uc22_FolderName = ucFolderName + "/Create_Message_Templates"
 def uc22_Folder = folder(uc22_FolderName) { displayName('Create Message Templates')}
 
-def uc23_FolderName = ucFolderName + "/Manage_Requisition_Types"
-def uc23_Folder = folder(uc23_FolderName) { displayName('Manage Requisition Types')}
+def uc23_FolderName = ucFolderName + "/Create_User_Defined_Forms_For_Career_Section"
+def uc23_Folder = folder(uc23_FolderName) { displayName('Create user Defined forms for Career Section')}
 
 def uc24_FolderName = ucFolderName + "/Manage_Center_Stage"
 def uc24_Folder = folder(uc24_FolderName) { displayName('Manage Center Stage')}
@@ -133,6 +133,54 @@ def uc25_Folder = folder(uc25_FolderName) { displayName('Manage Candidate Duplic
 
 def uc26_FolderName = ucFolderName + "/Manage_Candidate_Search_Page"
 def uc26_Folder = folder(uc26_FolderName) { displayName('Manage Candidate Search Page')}
+
+// Set 6 per task
+def uc27_FolderName = ucFolderName + "/Manage_Welcome_Center_Content"
+def uc27_Folder = folder(uc27_FolderName) { displayName('Manage Welcome Center Content')}
+
+def uc28_FolderName = ucFolderName + "/Create_User_Defined_Forms_For_Career_Section"
+def uc28_Folder = folder(uc28_FolderName) { displayName('Create User Defined Forms For Career Section')}
+
+def uc29_FolderName = ucFolderName + "/Manage_Application_Flows"
+def uc29_Folder = folder(uc29_FolderName) { displayName('Manage Application Flows')}
+
+def uc30_FolderName = ucFolderName + "/Manage_Career_Sections"
+def uc30_Folder = folder(uc30_FolderName) { displayName('Manage Career Sections')}
+
+def uc31_FolderName = ucFolderName + "/Manage_Diversity_Form_List"
+def uc31_Folder = folder(uc31_FolderName) { displayName('Manage Diversity Form List')}
+
+// Set 7 per task
+def uc32_FolderName = ucFolderName + "/Manage_Question_Type"
+def uc32_Folder = folder(uc32_FolderName) { displayName('Manage Question Type')}
+
+def uc33_FolderName = ucFolderName + "/Manage_Statements"
+def uc33_Folder = folder(uc33_FolderName) { displayName('Manage Statements')}
+
+def uc34_FolderName = ucFolderName + "/Manage_Themes"
+def uc34_Folder = folder(uc34_FolderName) { displayName('Manage Themes')}
+
+def uc35_FolderName = ucFolderName + "/Manage_Career_Portal_Brands"
+def uc35_Folder = folder(uc35_FolderName) { displayName('Manage Career Portal Brands')}
+
+def uc36_FolderName = ucFolderName + "/Manage_Career_Section_URLs"
+def uc36_Folder = folder(uc36_FolderName) { displayName('Manage Career Section URLs')}
+
+// Set 8 per task
+def uc37_FolderName = ucFolderName + "/Manage_Personalized_Job_List"
+def uc37_Folder = folder(uc37_FolderName) { displayName('Manage Personalized Job List')}
+
+def uc38_FolderName = ucFolderName + "/Manage_Documents"
+def uc38_Folder = folder(uc38_FolderName) { displayName('Manage Documents')}
+
+def uc39_FolderName = ucFolderName + "/Create_Onboarding_User_Defined_Forms"
+def uc39_Folder = folder(uc39_FolderName) { displayName('Create Onboarding User Defined Forms')}
+
+def uc40_FolderName = ucFolderName + "/Manage_User_Defined_Selections"
+def uc40_Folder = folder(uc40_FolderName) { displayName('Manage User Defined Selections')}
+
+def uc41_FolderName = ucFolderName + "/Manage_Electronic_Signature"
+def uc41_Folder = folder(uc41_FolderName) { displayName('Manage Electronic Signature')}
 
 // TALEO Per Set
 
@@ -150,6 +198,15 @@ def Set4_Folder = folder(Set4_FolderName) { displayName('Set 4')}
 
 def Set5_FolderName = ucPerSetFolderName + "/Set_5"
 def Set5_Folder = folder(Set5_FolderName) { displayName('Set 5')}
+
+def Set6_FolderName = ucPerSetFolderName + "/Set_6"
+def Set6_Folder = folder(Set6_FolderName) { displayName('Set 6')}
+
+def Set7_FolderName = ucPerSetFolderName + "/Set_7"
+def Set7_Folder = folder(Set7_FolderName) { displayName('Set 7')}
+
+def Set8_FolderName = ucPerSetFolderName + "/Set_8"
+def Set8_Folder = folder(Set8_FolderName) { displayName('Set 8')}
 
 
 // ADOP Cartridge Management Folder
