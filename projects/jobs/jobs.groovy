@@ -122,8 +122,8 @@ def uc21_Folder = folder(uc21_FolderName) { displayName('Create Paragraphs')}
 def uc22_FolderName = ucFolderName + "/Create_Message_Templates"
 def uc22_Folder = folder(uc22_FolderName) { displayName('Create Message Templates')}
 
-def uc23_FolderName = ucFolderName + "/Create_User_Defined_Forms_For_Career_Section"
-def uc23_Folder = folder(uc23_FolderName) { displayName('Create user Defined forms for Career Section')}
+def uc23_FolderName = ucFolderName + "/Manage_Requisition_Types"
+def uc23_Folder = folder(uc23_FolderName) { displayName('Manage Requisition Types')}
 
 def uc24_FolderName = ucFolderName + "/Manage_Center_Stage"
 def uc24_Folder = folder(uc24_FolderName) { displayName('Manage Center Stage')}
