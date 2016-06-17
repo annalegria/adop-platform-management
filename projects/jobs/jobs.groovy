@@ -20,6 +20,25 @@ def CoreMainFolder = folder(CoreMainFolderName) { displayName('Oracle HCM Core')
 def TaleoMainFolderName = projectFolderName + "/TALEO"
 def TaleoMainFolder = folder(TaleoMainFolderName) { displayName('Oracle Taleo') }
 
+def CompensationFolderName = projectFolderName + "/HCM-Compensation"
+def CompensationFolder = folder(CompensationFolderName) { displayName('Oracle HCM Compensation') }
+
+// SUBFOLDER of Compensation
+
+def CompensationsubFolderName = CompensationFolderName + "/HCM_Compensation_Per_Set"
+def CompensationsubFolder = folder(CompensationsubFolderName) { displayName('Oracle HCM Compensation(Per Set)') }
+
+// Per Set Compensation
+
+def compensationset1FolderName = CompensationsubFolderName  + "/Set_1"
+def compensationset1Folder = folder(compensationset1FolderName) { displayName('Set 1') }
+
+def compensationset2FolderName = CompensationsubFolderName  + "/Set_2"
+def compensationset2Folder = folder(compensationset2FolderName) { displayName('Set 3') }
+
+def compensationset3FolderName = CompensationsubFolderName  + "/Set_3"
+def compensationset3Folder = folder(compensationset3FolderName) { displayName('Set 1') }
+
 
 // SUBFOLDER of Talent
 
