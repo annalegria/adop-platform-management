@@ -201,6 +201,28 @@ def uc40_Folder = folder(uc40_FolderName) { displayName('Manage User Defined Sel
 def uc41_FolderName = ucFolderName + "/Manage_Electronic_Signature"
 def uc41_Folder = folder(uc41_FolderName) { displayName('Manage Electronic Signature')}
 
+// Set 9 per task
+def uc42_FolderName = ucFolderName + "/Manage_Task_Definitions"
+def uc42_Folder = folder(uc42_FolderName) { displayName('Manage Task Definitions')}
+
+def uc43_FolderName = ucFolderName + "/Manage_Process_Steps"
+def uc43_Folder = folder(uc43_FolderName) { displayName('Manage Process Steps')}
+
+def uc44_FolderName = ucFolderName + "/Manage_Onboarding_Paragraphs"
+def uc44_Folder = folder(uc44_FolderName) { displayName('Manage Onboarding Paragraphs')}
+
+def uc45_FolderName = ucFolderName + "/Manage_Onboarding_Documents"
+def uc45_Folder = folder(uc45_FolderName) { displayName('Manage Onboarding Documents')}
+
+def uc46_FolderName = ucFolderName + "/Manage_Onboarding_Message_Templates"
+def uc46_Folder = folder(uc46_FolderName) { displayName('Manage Onboarding Message Templates')}
+
+def uc47_FolderName = ucFolderName + "/Manage_Onboarding_Content_Pages"
+def uc47_Folder = folder(uc47_FolderName) { displayName('Manage Onboarding Content Pages')}
+
+def uc48_FolderName = ucFolderName + "/Manage_Images"
+def uc48_Folder = folder(uc48_FolderName) { displayName('Manage Images')}
+
 // TALEO Per Set
 
 def Set1_FolderName = ucPerSetFolderName + "/Set_1"
@@ -227,6 +249,8 @@ def Set7_Folder = folder(Set7_FolderName) { displayName('Set 7')}
 def Set8_FolderName = ucPerSetFolderName + "/Set_8"
 def Set8_Folder = folder(Set8_FolderName) { displayName('Set 8')}
 
+def Set9_FolderName = ucPerSetFolderName + "/Set_9"
+def Set9_Folder = folder(Set9_FolderName) { displayName('Set 9')}
 
 // ADOP Cartridge Management Folder
 
